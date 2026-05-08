@@ -1,8 +1,50 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T06:49:18.732Z",
-  "count": 1512,
+  "generatedAt": "2026-05-08T07:14:29.699Z",
+  "count": 1532,
   "missions": [
+    {
+      "path": "fixes/cncf-generated/akri/akri-180-consider-implementing-a-validator-for-configurations.json",
+      "title": "akri: Consider implementing a validator for Configurations",
+      "description": "Consider implementing a validator for Configurations. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "akri",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "akri"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
       "title": "alertmanager: [Kubernetes] Peers ip caching causes all clusters to degrade over  time",
@@ -825,6 +867,44 @@
       "path": "fixes/cncf-generated/apisix/apisix-8772-feat-as-a-user-i-want-to-set-a-validation-on-custom-claims-in-oidc-a.json",
       "title": "apisix: feat: As a user, I want to set a validation on custom claims in oidc auth, so that I can restrict access to backend based on that rule",
       "description": "feat: As a user, I want to set a validation on custom claims in oidc auth, so that I can restrict access to backend based on that rule. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "apisix",
+        "community",
+        "api-gateway",
+        "feature"
+      ],
+      "cncfProjects": [
+        "apisix"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/apisix/apisix-1574-feature-prometheus-plugin-apisix-http-status-metric-route-tag-improv.json",
+      "title": "apisix: feature:  prometheus plugin `apisix_http_status` metric  `route` tag Improve recognition",
+      "description": "feature:  prometheus plugin `apisix_http_status` metric  `route` tag Improve recognition. Community-requested feature.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -8441,6 +8521,46 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/cloud-native-network/cloud-native-network-185-youki-exec-did-not-join-the-correct-pid-namespace.json",
+      "title": "cloud-native-network: `youki exec` did not join the correct pid namespace",
+      "description": "`youki exec` did not join the correct pid namespace. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cloud-native-network",
+        "sandbox",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cloud-native-network"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/cloud-native-network/cloud-native-network-25-add-seccomp.json",
       "title": "cloud-native-network: Add seccomp",
       "description": "Add seccomp. Community-requested feature.",
@@ -8890,6 +9010,46 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/clusterpedia/clusterpedia-169-use-collection-resource-to-list-all-resources-in-a-namespace.json",
+      "title": "clusterpedia: Use Collection Resource to list all resources in a namespace",
+      "description": "Use Collection Resource to list all resources in a namespace. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "clusterpedia",
+        "sandbox",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "clusterpedia"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "sandbox",
       "qualityScore": 100,
@@ -13069,6 +13229,44 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/dragonfly/dragonfly-1275-add-bloom-cuckoo-filter-support.json",
+      "title": "dragonfly: Add bloom/cuckoo filter support",
+      "description": "Add bloom/cuckoo filter support. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dragonfly",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dragonfly"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
@@ -20965,6 +21163,44 @@
       "qualitySuggestions": [
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
       ]
+    },
+    {
+      "path": "fixes/cncf-generated/inspektor-gadget/inspektor-gadget-2131-rfe-update-gadgetinfo-rpc-to-avoid-handling-btf-wasm-clien.json",
+      "title": "inspektor-gadget: [RFE] Update GadgetInfo() rpc to avoid handling BTF/Wasm client-side",
+      "description": "[RFE] Update GadgetInfo() rpc to avoid handling BTF/Wasm client-side. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "inspektor-gadget",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "inspektor-gadget"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
     },
     {
       "path": "fixes/cncf-generated/inspektor-gadget/inspektor-gadget-1001-some-integration-tests-report-events-for-other-namespace.json",
@@ -35376,6 +35612,48 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/k8sgpt/k8sgpt-440-bug-k8sgpt-fails-to-start-with-mkdir-config-permission-denied.json",
+      "title": "k8sgpt: [Bug]: k8sgpt fails to start with \"mkdir /.config: permission denied\"",
+      "description": "[Bug]: k8sgpt fails to start with \"mkdir /.config: permission denied\". Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "k8sgpt",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "k8sgpt"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/k8up/k8up-910-failed-backup-stated-as-succeeded.json",
       "title": "k8up: Failed backup stated as succeeded",
       "description": "Failed backup stated as succeeded. Community-reported issue.",
@@ -35604,6 +35882,46 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kagenti/kagenti-72-bug-mcp-inspector-not-connecting-to-weather-tool.json",
+      "title": "kagenti: bug: MCP Inspector not connecting to weather tool",
+      "description": "bug: MCP Inspector not connecting to weather tool. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kagenti",
+        "community",
+        "ai-agents",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kagenti"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
@@ -36610,6 +36928,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/kepler/kepler-131-panic-inconsistent-label-cardinality-expected-21-label-values-but-got.json",
+      "title": "kepler: panic: inconsistent label cardinality: expected 21 label values but got 20",
+      "description": "panic: inconsistent label cardinality: expected 21 label values but got 20. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/kepler/kepler-724-provide-go-vet-and-gosec-in-github-action.json",
       "title": "kepler: Provide go vet and gosec in Github action",
       "description": "Provide go vet and gosec in Github action. This issue affects 0+ users.",
@@ -36628,6 +36984,84 @@
         "kepler"
       ],
       "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kepler/kepler-636-sigsegv-on-ubuntu-20.json",
+      "title": "kepler: SIGSEGV on Ubuntu 20",
+      "description": "SIGSEGV on Ubuntu 20. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kepler/kepler-352-vm-all-node-pod-energy-report-0-again.json",
+      "title": "kepler: VM: all node / pod energy report 0 (again..)",
+      "description": "VM: all node / pod energy report 0 (again..). Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
@@ -38871,6 +39305,46 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/konveyor/konveyor-201-config-and-makefile-bundle-variables-are-out-of-date.json",
+      "title": "konveyor: `config/` and `Makefile` bundle variables are out of date",
+      "description": "`config/` and `Makefile` bundle variables are out of date. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "konveyor",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "konveyor"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/koordinator/koordinator-1473-proposal-add-non-preemptible-feature-in-elastic-quota-managemen.json",
       "title": "koordinator: [proposal] Add non-preemptible feature in Elastic Quota Management",
       "description": "[proposal] Add non-preemptible feature in Elastic Quota Management. Requested by 5+ users.",
@@ -40530,6 +41004,48 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kuberay/kuberay-1130-bug-gke-csi-fuse-mounts-prevent-worker-pod-creation.json",
+      "title": "kuberay: [Bug] GKE CSI Fuse Mounts prevent worker pod creation",
+      "description": "[Bug] GKE CSI Fuse Mounts prevent worker pod creation. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kuberay",
+        "community",
+        "ml-platform",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kuberay"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Serviceaccount"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
@@ -47193,6 +47709,44 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/n8n/n8n-18452-vertex-ai-exceptions-masked-by-n8n-exception.json",
+      "title": "n8n: Vertex AI exceptions masked by n8n exception",
+      "description": "Vertex AI exceptions masked by n8n exception. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "feature"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 100,
@@ -54762,6 +55316,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/pushgateway/pushgateway-184-expose-metrics-metadata-in-http-api.json",
+      "title": "pushgateway: Expose metrics metadata in HTTP API",
+      "description": "Expose metrics metadata in HTTP API. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "pushgateway",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "pushgateway"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/pushgateway/pushgateway-97-if-parameters-include-it-will-response-code-400.json",
       "title": "pushgateway: Label values containing '/' return HTTP 400",
       "description": "When pushing metrics to the Pushgateway with label values containing '/', the request returns HTTP 400. This is caused by Go's URL parser unescaping %2F before the router sees the path, making it impo",
@@ -55486,6 +56078,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/rook/rook-1329-docs-explain-too-few-pgs-per-osd-warning.json",
+      "title": "rook: docs: explain \"too few PGs per OSD\" warning",
+      "description": "docs: explain \"too few PGs per OSD\" warning. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/rook/rook-1659-kubelet-volume-persistent-volume-metrics-missing.json",
       "title": "rook: kubelet_volume* / persistent volume metrics missing",
       "description": "kubelet_volume* / persistent volume metrics missing. Requested by 14+ users.",
@@ -56021,6 +56651,44 @@
       "path": "fixes/cncf-generated/serverless-workflow/serverless-workflow-420-refactor-rest-operation.json",
       "title": "serverless-workflow: Refactor `rest` Operation",
       "description": "Refactor `rest` Operation. Requested by 4+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "serverless-workflow",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "serverless-workflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/serverless-workflow/serverless-workflow-873-rename-output-from-and-output-to.json",
+      "title": "serverless-workflow: Rename output.from and output.to",
+      "description": "Rename output.from and output.to. Community-requested feature.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -56994,6 +57662,87 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/submariner/submariner-825-add-1-ha-failure-scenario-to-e2e-testing-poc.json",
+      "title": "submariner: Add 1 HA Failure Scenario to E2E testing (POC)",
+      "description": "Add 1 HA Failure Scenario to E2E testing (POC). Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "submariner",
+        "sandbox",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "submariner"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/submariner/submariner-544-globalnet-intermitent-failures.json",
+      "title": "submariner: Globalnet intermitent failures",
+      "description": "Globalnet intermitent failures. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "submariner",
+        "sandbox",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "submariner"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
@@ -59231,6 +59980,44 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/trickster/trickster-105-panic-with-v0-1-3.json",
+      "title": "trickster: Panic with v0.1.3",
+      "description": "Panic with v0.1.3. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "trickster",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "trickster"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
