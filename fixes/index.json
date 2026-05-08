@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T06:48:41.211Z",
-  "count": 1505,
+  "generatedAt": "2026-05-08T06:49:18.732Z",
+  "count": 1512,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -8519,6 +8519,50 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/cloudevents/cloudevents-311-a-schema-constraints-for-context-and-data-attributes-identified-.json",
+      "title": "cloudevents: A schema (constraints) for context and data attributes identified by schemaURL ",
+      "description": "A schema (constraints) for context and data attributes identified by schemaURL . Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cloudevents",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cloudevents"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 88,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 70,
+        "structure": 100,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Instruction logic missing required configuration fragments or commands",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Include complete YAML manifests or CLI commands (e.g., using fenced code blocks)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
       "path": "fixes/cncf-generated/cloudevents/cloudevents-1276-asyncapi-v3-trait-for-cloudevents.json",
       "title": "cloudevents: AsyncAPI v3 Trait for CloudEvents",
       "description": "AsyncAPI v3 Trait for CloudEvents. Community-requested feature.",
@@ -9819,6 +9863,46 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/containerd/containerd-2901-containerd-builds-for-arm64.json",
+      "title": "containerd: containerd builds for arm64",
+      "description": "containerd builds for arm64. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "feature"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Job"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/containerd/containerd-12344-containerd-shim-processes-leak-during-high-pod-churn.json",
       "title": "containerd: containerd-shim processes leak during high pod churn",
       "description": "containerd-shim processes leak during high pod churn. This issue affects 7+ users.",
@@ -10085,6 +10169,48 @@
         "Node"
       ],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/containerd/containerd-3401-failed-to-create-containerd-container-error-unpacking-image-cont.json",
+      "title": "containerd: failed to create containerd container: error unpacking image: content digest sha256:16*: not found\"",
+      "description": "failed to create containerd container: error unpacking image: content digest sha256:16*: not found\". This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Service"
+      ],
+      "difficulty": "beginner",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -11145,6 +11271,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/cri-o/cri-o-8743-cri-o-1-30-7-1-31-2-writing-file-devices-allow-operation-not-permitte.json",
+      "title": "cri-o: CRI-O 1.30.7 / 1.31.2: writing file devices.allow: Operation not permitted",
+      "description": "CRI-O 1.30.7 / 1.31.2: writing file devices.allow: Operation not permitted. Users encounter: \"writing file devices.allow: Operation not permitted`\".",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cri-o",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cri-o"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/cri-o/cri-o-2236-crio-static-build.json",
       "title": "cri-o: crio static build",
       "description": "crio static build. Community-requested feature.",
@@ -11924,6 +12088,85 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/dapr/dapr-1116-enable-bi-directional-bindings.json",
+      "title": "dapr: Enable Bi-Directional Bindings",
+      "description": "Enable Bi-Directional Bindings. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/dapr/dapr-1034-enable-get-for-secret-stores-to-dynamically-fetch-secrets.json",
+      "title": "dapr: Enable GET for secret stores to dynamically fetch secrets",
+      "description": "Enable GET for secret stores to dynamically fetch secrets. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Secret"
+      ],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -42910,6 +43153,44 @@
         "Pod",
         "Deployment"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/linkerd/linkerd-3729-classify-some-grpc-status-codes-as-non-errors.json",
+      "title": "linkerd: Classify some gRPC status codes as non-errors",
+      "description": "Classify some gRPC status codes as non-errors. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
