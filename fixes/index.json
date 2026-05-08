@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T07:14:29.699Z",
-  "count": 1532,
+  "generatedAt": "2026-05-08T07:15:58.476Z",
+  "count": 1533,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-180-consider-implementing-a-validator-for-configurations.json",
@@ -19169,6 +19169,48 @@
       "qualitySuggestions": [
         "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)",
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/cncf-generated/grpc/grpc-33935-python-core-error-parsing-http-status-code-401-converted-to-unknown-s.json",
+      "title": "grpc: Python/Core: Error parsing http status code - `401` converted to `UNKNOWN: Stream removed`",
+      "description": "Python/Core: Error parsing http status code - `401` converted to `UNKNOWN: Stream removed`. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 94,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 60
+      },
+      "qualityIssues": [
+        "No verification step or command found"
+      ],
+      "qualitySuggestions": [
+        "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)"
       ]
     },
     {
