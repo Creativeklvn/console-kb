@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T00:29:38.353Z",
-  "count": 1498,
+  "generatedAt": "2026-05-08T06:48:41.211Z",
+  "count": 1505,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -1435,6 +1435,44 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/argo-events/argo-events-703-sasl-authentication-to-kafka.json",
+      "title": "argo-events: SASL authentication to Kafka",
+      "description": "SASL authentication to Kafka. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-events",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-events"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -4587,6 +4625,48 @@
       ]
     },
     {
+      "path": "fixes/cncf-generated/backstage/backstage-4568-techdocs-implement-a-defaulttechdocscollator.json",
+      "title": "backstage: [TechDocs] Implement a DefaultTechDocsCollator",
+      "description": "[TechDocs] Implement a DefaultTechDocsCollator. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 96,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
       "path": "fixes/cncf-generated/backstage/backstage-22142-bug-report-getting-started-failing.json",
       "title": "backstage: 🐛 Bug Report: \"Getting Started\" failing",
       "description": "🐛 Bug Report: \"Getting Started\" failing. This issue affects 15+ users.",
@@ -6824,6 +6904,44 @@
         "Ingress"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/cert-manager/cert-manager-2036-support-scoped-api-token-based-authentication-with-cloudflare.json",
+      "title": "cert-manager: Support scoped-API token based authentication with Cloudflare",
+      "description": "Support scoped-API token based authentication with Cloudflare. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -20560,6 +20678,48 @@
       ],
       "qualitySuggestions": [
         "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/cncf-generated/in-toto/in-toto-16-step-and-inspection-generalization.json",
+      "title": "in-toto: Step and Inspection generalization",
+      "description": "Step and Inspection generalization. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "in-toto",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "in-toto"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 96,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
       ]
     },
@@ -35611,6 +35771,46 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/keda/keda-530-emit-kuberentes-events-on-major-keda-events.json",
+      "title": "keda: Emit Kuberentes Events on major KEDA events",
+      "description": "Emit Kuberentes Events on major KEDA events. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/keda/keda-2581-kafka-partitions-per-pod-scaling.json",
       "title": "keda: Kafka Partitions Per Pod Scaling",
       "description": "Kafka Partitions Per Pod Scaling. Requested by 10+ users.",
@@ -37541,6 +37741,48 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/knative/knative-4982-add-option-to-enable-disable-profiling-of-knative-serving-pods.json",
+      "title": "knative: Add option to enable/disable profiling of Knative Serving pods",
+      "description": "Add option to enable/disable profiling of Knative Serving pods. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Configmap",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/knative/knative-5306-allow-runtimeclassname-and-dnspolicy-in-service-template-spec.json",
       "title": "knative: Allow runtimeClassName and dnsPolicy in service template spec",
       "description": "Allow runtimeClassName and dnsPolicy in service template spec. Community-requested feature.",
@@ -37771,6 +38013,44 @@
         "Pod",
         "Namespace"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/knative/knative-4183-minscale-should-not-apply-to-non-routable-revisions.json",
+      "title": "knative: minScale should not apply to non-routable revisions",
+      "description": "minScale should not apply to non-routable revisions. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
