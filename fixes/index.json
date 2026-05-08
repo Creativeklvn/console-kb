@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T07:35:57.398Z",
+  "generatedAt": "2026-05-08T11:38:04.182Z",
   "count": 1544,
   "missions": [
     {
@@ -22697,7 +22697,7 @@
     {
       "path": "fixes/platform-install/platform-charmed-kubernetes.json",
       "title": "Install and Configure Charmed Kubernetes",
-      "description": "Charmed Kubernetes is a distribution of Kubernetes that is designed for ease of deployment and management using Juju. It is ideal for users who want a fully managed Kubernetes experience on various cl",
+      "description": "Charmed Kubernetes is a distribution of Kubernetes that is designed for ease of deployment and management using Juju. It is ideal for users looking for a robust Kubernetes solution that integrates wel",
       "category": "platform-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -23771,7 +23771,7 @@
     {
       "path": "fixes/platform-install/platform-docker-desktop-k8s.json",
       "title": "Install and Configure Docker Desktop Kubernetes",
-      "description": "Docker Desktop for Mac provides a seamless local development environment for building and testing containerized applications using Docker and Kubernetes. It simplifies the setup process and integrates",
+      "description": "Docker Desktop for Mac provides an integrated Docker experience on macOS, including a local Kubernetes cluster. It's ideal for developers looking to test and develop applications in a Kubernetes envir",
       "category": "platform-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -23799,7 +23799,7 @@
       "installMethods": [
         "cli"
       ],
-      "qualityScore": 94,
+      "qualityScore": 96,
       "qualityPass": true,
       "qualityBreakdown": {
         "clarity": 100,
@@ -30582,7 +30582,7 @@
     {
       "path": "fixes/platform-install/platform-prometheus-operator.json",
       "title": "Install and Configure Prometheus Operator / kube-prometheus-stack",
-      "description": "The Prometheus Operator simplifies the deployment and management of Prometheus monitoring stacks on Kubernetes. It leverages Kubernetes custom resources to automate configuration and management, makin",
+      "description": "The Prometheus Operator simplifies the deployment and management of Prometheus monitoring stacks on Kubernetes. It leverages Kubernetes custom resources to automate configuration, making it easier to ",
       "category": "platform-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
