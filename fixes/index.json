@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T07:17:56.157Z",
-  "count": 1539,
+  "generatedAt": "2026-05-08T07:18:41.648Z",
+  "count": 1543,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -43645,6 +43645,50 @@
       ]
     },
     {
+      "path": "fixes/cncf-generated/lima/lima-4-unable-to-add-hypervisor-entitlement-to-qemu.json",
+      "title": "lima: Unable to add hypervisor entitlement to qemu",
+      "description": "Unable to add hypervisor entitlement to qemu. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 30
+      },
+      "qualityIssues": [
+        "No verification step or command found",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
       "path": "fixes/cncf-generated/lima/lima-1088-use-rosetta2-as-a-binfmt-misc-handler-on-macos-ventura.json",
       "title": "lima: Use Rosetta2 as a binfmt_misc handler on macOS Ventura",
       "description": "Use Rosetta2 as a binfmt_misc handler on macOS Ventura. Requested by 10+ users.",
@@ -45869,6 +45913,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/longhorn/longhorn-5421-feature-pause-io-when-raid1-bdev-snapshotting.json",
+      "title": "longhorn: [FEATURE] Pause IO when raid1 bdev snapshotting",
+      "description": "[FEATURE] Pause IO when raid1 bdev snapshotting. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "longhorn",
+        "incubating",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "longhorn"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/longhorn/longhorn-11039-improvement-expose-spdk-ublk-parameters.json",
       "title": "longhorn: [IMPROVEMENT] Expose SPDK UBLK Parameters",
       "description": "[IMPROVEMENT] Expose SPDK UBLK Parameters. This issue affects 5+ users.",
@@ -46012,6 +46094,44 @@
       "type": "upgrade",
       "installMethods": [],
       "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/meshery/meshery-1269-docs-copy-to-clipboard-for-cli-commands.json",
+      "title": "meshery: [Docs] Copy-to-clipboard for CLI commands",
+      "description": "[Docs] Copy-to-clipboard for CLI commands. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "meshery",
+        "sandbox",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "meshery"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
@@ -62709,6 +62829,46 @@
         "wasmcloud"
       ],
       "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/wasmcloud/wasmcloud-844-feature-washboard-should-display-assets-that-are-managed-by-wadm.json",
+      "title": "wasmcloud: [FEATURE] Washboard should display assets that are managed by wadm",
+      "description": "[FEATURE] Washboard should display assets that are managed by wadm. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "wasmcloud",
+        "incubating",
+        "runtime",
+        "feature"
+      ],
+      "cncfProjects": [
+        "wasmcloud"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
       "difficulty": "beginner",
       "issueTypes": [
         "feature"
