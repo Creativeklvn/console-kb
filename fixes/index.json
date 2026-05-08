@@ -1,8 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T07:15:58.476Z",
-  "count": 1533,
+  "generatedAt": "2026-05-08T07:17:56.157Z",
+  "count": 1539,
   "missions": [
+    {
+      "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
+      "title": "akri: [Extensibility] HTTP protocol",
+      "description": "[Extensibility] HTTP protocol. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "akri",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "akri"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
     {
       "path": "fixes/cncf-generated/akri/akri-180-consider-implementing-a-validator-for-configurations.json",
       "title": "akri: Consider implementing a validator for Configurations",
@@ -5691,6 +5729,48 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/caddy/caddy-2931-move-ci-process-to-github-actions-and-add-cd-pipelines.json",
+      "title": "caddy: Move CI process to GitHub Actions and add CD pipelines",
+      "description": "Move CI process to GitHub Actions and add CD pipelines. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 96,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
     },
     {
       "path": "fixes/cncf-generated/caddy/caddy-6481-no-matching-certificate-to-load-decoding-certificate-metadata-invalid.json",
@@ -46726,6 +46806,48 @@
       ]
     },
     {
+      "path": "fixes/cncf-generated/milvus/milvus-6690-support-specified-shard-number-when-create-collection.json",
+      "title": "milvus: Support specified shard number when create collection.",
+      "description": "Support specified shard number when create collection.. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "milvus",
+        "community",
+        "vector-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "milvus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 96,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
       "path": "fixes/cncf-generated/minio/minio-2111-resolved-versioning-support.json",
       "title": "minio: [resolved] Versioning support",
       "description": "[resolved] Versioning support. This issue affects 9+ users.",
@@ -57758,6 +57880,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/submariner/submariner-801-add-dependency-license-scanning-linting.json",
+      "title": "submariner: Add dependency license scanning linting",
+      "description": "Add dependency license scanning linting. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "submariner",
+        "sandbox",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "submariner"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/submariner/submariner-544-globalnet-intermitent-failures.json",
       "title": "submariner: Globalnet intermitent failures",
       "description": "Globalnet intermitent failures. Community-reported issue.",
@@ -61403,6 +61563,48 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/virtual-kubelet/virtual-kubelet-494-what-to-do-with-providers.json",
+      "title": "virtual-kubelet: What to do with providers?",
+      "description": "What to do with providers?. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "virtual-kubelet",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "virtual-kubelet"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/visual-studio-code-kubernetes-tools/visual-studio-code-kubernetes-tools-669-replicaset-snippet.json",
       "title": "visual-studio-code-kubernetes-tools: ReplicaSet snippet",
       "description": "ReplicaSet snippet. Requested by 2+ users.",
@@ -62447,6 +62649,46 @@
       "qualitySuggestions": [
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
       ]
+    },
+    {
+      "path": "fixes/cncf-generated/volcano/volcano-1775-scheduling-with-update-from-v1-2-0-to-v1-4-0.json",
+      "title": "volcano: scheduling with update from v1.2.0 to v1.4.0",
+      "description": "scheduling with update from v1.2.0 to v1.4.0. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "volcano",
+        "incubating",
+        "orchestration",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "volcano"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
     },
     {
       "path": "fixes/cncf-generated/wasmcloud/wasmcloud-1405-feature-wash-up-should-have-a-flag-to-specify-a-nats-server-confi.json",
