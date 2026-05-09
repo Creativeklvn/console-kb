@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-09T07:11:08.191Z",
-  "count": 1546,
+  "generatedAt": "2026-05-09T07:13:35.617Z",
+  "count": 1547,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -50884,6 +50884,44 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/open-webui/open-webui-21564-issue-edit-and-continue-response-don-t-work-properly.json",
+      "title": "open-webui: issue: \"Edit\" and \"Continue Response\" don't work properly",
+      "description": "issue: \"Edit\" and \"Continue Response\" don't work properly. This issue affects 37+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 100,
