@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-09T07:13:35.617Z",
-  "count": 1547,
+  "generatedAt": "2026-05-09T07:16:13.415Z",
+  "count": 1548,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -58855,6 +58855,46 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/thanos/thanos-977-feature-per-store-tls-configuration-in-thanos-query.json",
+      "title": "thanos: [Feature] Per-Store TLS configuration in Thanos Query",
+      "description": "[Feature] Per-Store TLS configuration in Thanos Query. Requested by 92+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "thanos",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
