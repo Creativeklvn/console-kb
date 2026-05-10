@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-10T06:49:44.049Z",
-  "count": 1548,
+  "generatedAt": "2026-05-10T07:28:02.562Z",
+  "count": 1549,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -39984,6 +39984,47 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kube-burner/kube-burner-862-rfe-ability-to-template-the-kind-field-of-a-kubernetes-object.json",
+      "title": "kube-burner: [RFE] Ability to template the kind field of a kubernetes object",
+      "description": "[RFE] Ability to template the kind field of a kubernetes object. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kube-burner",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kube-burner"
+      ],
+      "targetResourceKinds": [
+        "Customresourcedefinition",
+        "Job"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
