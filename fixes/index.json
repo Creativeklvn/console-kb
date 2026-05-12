@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-12T12:33:45.306Z",
-  "count": 1549,
+  "generatedAt": "2026-05-12T18:19:54.394Z",
+  "count": 1550,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -31805,6 +31805,54 @@
       ],
       "projectVersion": "v2.27.0",
       "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-install/install-thanos.json",
+      "title": "Install and Configure Thanos on Kubernetes",
+      "description": "Thanos is a highly available metrics system that extends existing Prometheus deployments with long-term storage, global query view, and unlimited retention across multiple clusters. Installing Thanos ",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "observability",
+        "incubating"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "StatefulSet",
+        "Service",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v0.39.2",
+      "maturity": "incubating",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
