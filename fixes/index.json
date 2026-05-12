@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-12T18:32:35.956Z",
-  "count": 1550,
+  "generatedAt": "2026-05-12T19:52:42.540Z",
+  "count": 1553,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -21666,6 +21666,54 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-install/install-apisix.json",
+      "title": "Install and Configure Apache APISIX on Kubernetes",
+      "description": "Apache APISIX is a dynamic, real-time, high-performance API gateway. It provides traffic management features including load balancing, dynamic upstream, canary release, circuit breaking, authenticatio",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "networking",
+        "incubating"
+      ],
+      "cncfProjects": [
+        "apisix"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "StatefulSet",
+        "Service",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v3.16.0",
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/platform-install/platform-argocd-operator.json",
       "title": "Install and Configure Argo CD Operator",
       "description": "The Argo CD Operator is a Kubernetes operator designed to manage Argo CD clusters efficiently. It automates the deployment and management of Argo CD instances, making it easier to implement GitOps wor",
@@ -27387,6 +27435,53 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-install/install-kuberay.json",
+      "title": "Install and Configure KubeRay on Kubernetes",
+      "description": "KubeRay is a Kubernetes operator for running Ray clusters, jobs, and services. It manages the lifecycle of distributed Ray workloads for machine learning, hyperparameter tuning, reinforcement learning",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "ai-ml",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "kuberay"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "CustomResourceDefinition",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v1.6.1",
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-install/install-kuberhealthy.json",
       "title": "Install and Configure Kuberhealthy on Kubernetes",
       "description": "Kuberhealthy is a Kubernetes operator that runs synthetic checks as pods, allowing you to continuously verify that your applications and clusters are functioning as expected. It integrates seamlessly ",
@@ -31804,6 +31899,52 @@
         "helm"
       ],
       "projectVersion": "v2.27.0",
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-install/install-tetragon.json",
+      "title": "Install and Configure Tetragon on Kubernetes",
+      "description": "Tetragon is an eBPF-based security observability and runtime enforcement tool from the Cilium project. It detects and can react to security-significant events such as process execution, system call ac",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "security",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "tetragon"
+      ],
+      "targetResourceKinds": [
+        "DaemonSet",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v1.7.0",
       "maturity": "sandbox",
       "qualityScore": 100,
       "qualityPass": true,
