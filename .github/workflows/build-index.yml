@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: scripts
-        run: npm install --no-audit
+        run: npm ci
 
       - name: Build mission index
         run: node scripts/build-index.mjs
