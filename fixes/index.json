@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-15T12:31:51.351Z",
+  "generatedAt": "2026-05-15T14:20:35.633Z",
   "count": 1554,
   "missions": [
     {
@@ -33330,10 +33330,10 @@
       ]
     },
     {
-      "path": "runbooks/install-kubestellar.json",
+      "path": "runbooks/install-kubestellar-controller.json",
       "title": "Install KubeStellar via Helm (Standalone Mode)",
       "description": "Production-grade, idempotent runbook to install KubeStellar in standalone mode using the 'kubestellar/kubestellar-core' Helm chart. IMPORTANT: This chart deploys KubeStellar core controllers into the ",
-      "category": "install-kubestellar.json",
+      "category": "install-kubestellar-controller.json",
       "missionClass": "runbook",
       "author": "KubeStellar Admin",
       "authorGithub": "kubestellar",
