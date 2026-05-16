@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T18:14:56.915Z",
-  "count": 1555,
+  "generatedAt": "2026-05-16T21:27:49.742Z",
+  "count": 1556,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -24846,6 +24846,53 @@
         "cli"
       ],
       "qualityScore": 98,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-install/install-grafana.json",
+      "title": "Install and Configure Grafana on Kubernetes",
+      "description": "Grafana is the open-source dashboard and observability platform that lets teams query, visualize, alert on, and explore metrics, logs, and traces from data sources such as Prometheus, Loki, Thanos, Mi",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "observability"
+      ],
+      "cncfProjects": [
+        "grafana"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service",
+        "Secret",
+        "PersistentVolumeClaim",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v12.3.1",
+      "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
         "clarity": 100,
