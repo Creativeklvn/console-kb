@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T00:17:43.090Z",
+  "generatedAt": "2026-05-16T03:21:46.030Z",
   "count": 1554,
   "missions": [
     {
@@ -21709,9 +21709,9 @@
       "description": "Apache APISIX is a dynamic, real-time, high-performance API gateway. It provides traffic management features including load balancing, dynamic upstream, canary release, circuit breaking, authenticatio",
       "category": "cncf-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
       "tags": [
         "installation",
         "configuration",
@@ -27478,9 +27478,9 @@
       "description": "KubeRay is a Kubernetes operator for running Ray clusters, jobs, and services. It manages the lifecycle of distributed Ray workloads for machine learning, hyperparameter tuning, reinforcement learning",
       "category": "cncf-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
       "tags": [
         "installation",
         "configuration",
@@ -31956,9 +31956,9 @@
       "description": "Tetragon is an eBPF-based security observability and runtime enforcement tool from the Cilium project. It detects and can react to security-significant events such as process execution, system call ac",
       "category": "cncf-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
       "tags": [
         "installation",
         "configuration",
@@ -31999,12 +31999,12 @@
     {
       "path": "fixes/cncf-install/install-thanos.json",
       "title": "Install and Configure Thanos on Kubernetes",
-      "description": "Thanos is a highly available metrics system that extends existing Prometheus deployments with long-term storage, global query view, and unlimited retention across multiple clusters. Installing Thanos ",
+      "description": "Thanos is a highly available metrics system that extends existing Prometheus deployments with long-term storage, global query view, and unlimited retention across multiple clusters. A complete Thanos ",
       "category": "cncf-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
       "tags": [
         "installation",
         "configuration",
@@ -32019,6 +32019,7 @@
         "Deployment",
         "StatefulSet",
         "Service",
+        "Secret",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -32030,7 +32031,7 @@
       "installMethods": [
         "helm"
       ],
-      "projectVersion": "v0.39.2",
+      "projectVersion": "v0.41.0",
       "maturity": "incubating",
       "qualityScore": 100,
       "qualityPass": true,
