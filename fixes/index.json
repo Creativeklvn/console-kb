@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T04:07:10.143Z",
-  "count": 1554,
+  "generatedAt": "2026-05-16T07:10:09.109Z",
+  "count": 1555,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -36267,6 +36267,44 @@
         "Namespace",
         "Secret"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kagent/kagent-476-feature-support-for-oauth2-openid-connect-integration-azure-entra-id-.json",
+      "title": "kagent: [FEATURE] Support for OAuth2/OpenID Connect Integration (Azure Entra ID, Keycloak, etc.) in Webchat",
+      "description": "[FEATURE] Support for OAuth2/OpenID Connect Integration (Azure Entra ID, Keycloak, etc.) in Webchat. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kagent",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kagent"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
