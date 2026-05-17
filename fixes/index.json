@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-17T18:17:49.548Z",
-  "count": 1560,
+  "generatedAt": "2026-05-17T22:57:58.132Z",
+  "count": 1562,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -22448,6 +22448,53 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-install/install-calico.json",
+      "title": "Install and Configure Calico on Kubernetes",
+      "description": "Calico is a CNI plugin and network policy engine that powers networking on a wide range of Kubernetes distributions including OpenShift, EKS, AKS, and GKE. Calico provides pod networking, network poli",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "networking"
+      ],
+      "cncfProjects": [
+        "calico"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "DaemonSet",
+        "Service",
+        "CustomResourceDefinition",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v3.32.0",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-install/install-capsule.json",
       "title": "Install and Configure Capsule on Kubernetes",
       "description": "Capsule is a multi-tenancy and policy-based framework for Kubernetes, designed to simplify the management of multiple namespaces within a single cluster. By using Capsule, you can efficiently manage r",
@@ -32539,6 +32586,52 @@
       "installMethods": [
         "helm"
       ],
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-install/install-trivy-operator.json",
+      "title": "Install and Configure Trivy Operator on Kubernetes",
+      "description": "Trivy Operator is the Kubernetes-native deployment of the Trivy vulnerability scanner from Aqua Security. It runs continuously inside the cluster, scans every Pod's container images, configurations, a",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "security"
+      ],
+      "cncfProjects": [
+        "trivy"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service",
+        "CustomResourceDefinition",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v0.30.1",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
