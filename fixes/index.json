@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T21:27:49.742Z",
-  "count": 1556,
+  "generatedAt": "2026-05-17T03:44:14.504Z",
+  "count": 1557,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -24846,6 +24846,54 @@
         "cli"
       ],
       "qualityScore": 98,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-install/install-loki.json",
+      "title": "Install and Configure Grafana Loki on Kubernetes",
+      "description": "Grafana Loki is a horizontally scalable, multi-tenant log aggregation system inspired by Prometheus. Loki indexes only metadata labels and stores compressed log chunks in S3-compatible object storage,",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "observability"
+      ],
+      "cncfProjects": [
+        "loki"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "StatefulSet",
+        "Service",
+        "Secret",
+        "PersistentVolumeClaim",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v3.6.7",
+      "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
         "clarity": 100,
