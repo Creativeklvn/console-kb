@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-16T07:19:02.214Z",
+  "lastUpdated": "2026-05-17T07:29:27.261Z",
   "projects": {
     "ratify-project/ratify": {
       "github-issues": {
@@ -1513,6 +1513,583 @@
       },
       "stackoverflow": {
         "lastSearched": "2026-05-16T06:53:56.994Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "tremor-rs/tremor-runtime": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:17:48.202Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:17:48.616Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:17:56.905Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:17:59.333Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "trickstercache/trickster": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:18:02.324Z",
+        "processedIds": [
+          "gh:trickstercache/trickster#49",
+          "gh:trickstercache/trickster#105"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:18:02.710Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:18:10.983Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:18:13.200Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "urunc-dev/urunc": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:18:14.388Z",
+        "processedIds": [
+          "gh:urunc-dev/urunc#119"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:18:15.143Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:18:31.437Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:18:33.676Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "v6d-io/v6d": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:18:34.959Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:18:35.928Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:18:44.203Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:18:46.508Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "virtual-kubelet/virtual-kubelet": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:18:49.486Z",
+        "processedIds": [
+          "gh:virtual-kubelet/virtual-kubelet#494",
+          "gh:virtual-kubelet/virtual-kubelet#399"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:18:50.227Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:19:06.531Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:19:12.933Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "vscode-kubernetes-tools/vscode-kubernetes-tools": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:19:15.724Z",
+        "processedIds": [
+          "gh:vscode-kubernetes-tools/vscode-kubernetes-tools#1026",
+          "gh:vscode-kubernetes-tools/vscode-kubernetes-tools#1025",
+          "gh:vscode-kubernetes-tools/vscode-kubernetes-tools#669"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:19:16.140Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:19:24.416Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:19:26.633Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "WasmEdge/WasmEdge": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:19:27.866Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:19:29.596Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:19:37.862Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:19:40.146Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "werf/werf": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:19:41.404Z",
+        "processedIds": [
+          "gh:werf/werf#3411"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:19:42.347Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:19:58.658Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:20:00.874Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "xregistry/server": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:20:01.885Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:20:02.276Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:20:10.544Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:20:12.753Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "kagenti/kagenti": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:20:14.070Z",
+        "processedIds": [
+          "gh:kagenti/kagenti#72"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:20:15.171Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:20:31.451Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:20:37.899Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "llm-d/llm-d": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:20:39.215Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:20:39.595Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:20:47.849Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:20:50.057Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "vllm-project/vllm": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:20:55.338Z",
+        "processedIds": [
+          "gh:vllm-project/vllm#12486",
+          "gh:vllm-project/vllm#3690",
+          "gh:vllm-project/vllm#1002",
+          "gh:vllm-project/vllm#14721",
+          "gh:vllm-project/vllm#12073",
+          "gh:vllm-project/vllm#3203",
+          "gh:vllm-project/vllm#6928",
+          "gh:vllm-project/vllm#22403",
+          "gh:vllm-project/vllm#14753",
+          "gh:vllm-project/vllm#2422",
+          "gh:vllm-project/vllm#19229",
+          "gh:vllm-project/vllm#12083",
+          "gh:vllm-project/vllm#8808",
+          "gh:vllm-project/vllm#1089",
+          "gh:vllm-project/vllm#1229",
+          "gh:vllm-project/vllm#13002",
+          "gh:vllm-project/vllm#12154",
+          "gh:vllm-project/vllm#30466"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:20:56.160Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:21:04.469Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:21:06.700Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "ollama/ollama": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:21:15.272Z",
+        "processedIds": [
+          "gh:ollama/ollama#6564",
+          "gh:ollama/ollama#305",
+          "gh:ollama/ollama#3582",
+          "gh:ollama/ollama#9659",
+          "gh:ollama/ollama#738",
+          "gh:ollama/ollama#10309",
+          "gh:ollama/ollama#707",
+          "gh:ollama/ollama#2637",
+          "gh:ollama/ollama#327",
+          "gh:ollama/ollama#3697",
+          "gh:ollama/ollama#3189",
+          "gh:ollama/ollama#403",
+          "gh:ollama/ollama#5091",
+          "gh:ollama/ollama#4051",
+          "gh:ollama/ollama#2416",
+          "gh:ollama/ollama#8783",
+          "gh:ollama/ollama#3690",
+          "gh:ollama/ollama#3027",
+          "gh:ollama/ollama#283",
+          "gh:ollama/ollama#2734"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:21:16.464Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:21:32.755Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:21:34.995Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "mudler/LocalAI": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:21:37.556Z",
+        "processedIds": [
+          "gh:mudler/LocalAI#1315",
+          "gh:mudler/LocalAI#3714",
+          "gh:mudler/LocalAI#1273",
+          "gh:mudler/LocalAI#2018",
+          "gh:mudler/LocalAI#1467",
+          "gh:mudler/LocalAI#5917",
+          "gh:mudler/LocalAI#404",
+          "gh:mudler/LocalAI#973"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:21:39.040Z",
+        "processedIds": [],
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0yMVQyMTozMDoxMFrOAFZSIA=="
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:21:47.280Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:21:49.492Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "substratusai/kubeai": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:21:50.304Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:21:51.060Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:22:07.394Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:22:13.668Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "BerriAI/litellm": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:22:19.900Z",
+        "processedIds": [
+          "gh:BerriAI/litellm#24512",
+          "gh:BerriAI/litellm#11759",
+          "gh:BerriAI/litellm#14762",
+          "gh:BerriAI/litellm#20743",
+          "gh:BerriAI/litellm#13711",
+          "gh:BerriAI/litellm#6564",
+          "gh:BerriAI/litellm#13710",
+          "gh:BerriAI/litellm#12685",
+          "gh:BerriAI/litellm#10349",
+          "gh:BerriAI/litellm#13081",
+          "gh:BerriAI/litellm#7877",
+          "gh:BerriAI/litellm#13781",
+          "gh:BerriAI/litellm#7560",
+          "gh:BerriAI/litellm#16810",
+          "gh:BerriAI/litellm#14521",
+          "gh:BerriAI/litellm#22667",
+          "gh:BerriAI/litellm#10314",
+          "gh:BerriAI/litellm#14704",
+          "gh:BerriAI/litellm#13340",
+          "gh:BerriAI/litellm#14846"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:22:22.146Z",
+        "processedIds": [],
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyNC0wMy0wN1QxNTozOTowMVrOAGCxHQ=="
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:22:30.443Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:22:32.689Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "ray-project/kuberay": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:22:34.023Z",
+        "processedIds": [
+          "gh:ray-project/kuberay#2544",
+          "gh:ray-project/kuberay#1130"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:22:35.207Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:22:43.504Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:22:45.722Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "kubeflow/kubeflow": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:22:48.536Z",
+        "processedIds": [
+          "gh:kubeflow/kubeflow#6680",
+          "gh:kubeflow/kubeflow#5560",
+          "gh:kubeflow/kubeflow#4731",
+          "gh:kubeflow/kubeflow#6228",
+          "gh:kubeflow/kubeflow#4569",
+          "gh:kubeflow/kubeflow#3362",
+          "gh:kubeflow/kubeflow#3810",
+          "gh:kubeflow/kubeflow#5190",
+          "gh:kubeflow/kubeflow#2208",
+          "gh:kubeflow/kubeflow#3259",
+          "gh:kubeflow/kubeflow#5128",
+          "gh:kubeflow/kubeflow#5803"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:22:48.892Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:23:05.158Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:23:07.447Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "open-webui/open-webui": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:23:13.342Z",
+        "processedIds": [
+          "gh:open-webui/open-webui#929",
+          "gh:open-webui/open-webui#3129",
+          "gh:open-webui/open-webui#21564",
+          "gh:open-webui/open-webui#3527",
+          "gh:open-webui/open-webui#278",
+          "gh:open-webui/open-webui#230",
+          "gh:open-webui/open-webui#7616",
+          "gh:open-webui/open-webui#3620",
+          "gh:open-webui/open-webui#652",
+          "gh:open-webui/open-webui#531",
+          "gh:open-webui/open-webui#8168",
+          "gh:open-webui/open-webui#31",
+          "gh:open-webui/open-webui#596",
+          "gh:open-webui/open-webui#363",
+          "gh:open-webui/open-webui#316",
+          "gh:open-webui/open-webui#19182"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:23:21.906Z",
+        "processedIds": [
+          "ghd:open-webui/open-webui/17788"
+        ],
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyNS0wOS0xMlQwNzoyMjoyNFrOAIeDHA=="
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:23:30.239Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:23:32.528Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "langgenius/dify": {
+      "github-issues": {
+        "lastSearched": "2026-05-17T07:23:46.007Z",
+        "processedIds": [
+          "gh:langgenius/dify#6019",
+          "gh:langgenius/dify#11415",
+          "gh:langgenius/dify#1542",
+          "gh:langgenius/dify#23981",
+          "gh:langgenius/dify#3471",
+          "gh:langgenius/dify#9168",
+          "gh:langgenius/dify#12354",
+          "gh:langgenius/dify#13738",
+          "gh:langgenius/dify#22718",
+          "gh:langgenius/dify#14086",
+          "gh:langgenius/dify#19778",
+          "gh:langgenius/dify#5575",
+          "gh:langgenius/dify#7504",
+          "gh:langgenius/dify#16349",
+          "gh:langgenius/dify#8180"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-17T07:23:48.280Z",
+        "processedIds": [],
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNy0zMVQxNDoxMDoyMVrOAIQfLw=="
+      },
+      "reddit": {
+        "lastSearched": "2026-05-17T07:24:04.556Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-17T07:24:10.921Z",
         "processedIds": [],
         "cursor": null
       }
