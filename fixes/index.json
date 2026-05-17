@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-17T07:30:06.583Z",
-  "count": 1558,
+  "generatedAt": "2026-05-17T12:35:44.492Z",
+  "count": 1560,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -25091,6 +25091,55 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-install/install-vault.json",
+      "title": "Install and Configure HashiCorp Vault on Kubernetes",
+      "description": "HashiCorp Vault is the industry-standard tool for secrets management, encryption-as-a-service, and identity-based access. The official Helm chart supports four deployment modes: dev (single pod, in-me",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "security"
+      ],
+      "cncfProjects": [
+        "vault"
+      ],
+      "targetResourceKinds": [
+        "StatefulSet",
+        "Deployment",
+        "Service",
+        "Secret",
+        "PersistentVolumeClaim",
+        "ServiceAccount",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v1.21.2",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-install/install-headlamp.json",
       "title": "Install and Configure Headlamp on Kubernetes",
       "description": "Headlamp is an easy-to-use and extensible Kubernetes web UI that provides a user-friendly interface for managing Kubernetes resources. Installing Headlamp allows you to visualize and interact with you",
@@ -29004,6 +29053,55 @@
       "qualitySuggestions": [
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
       ]
+    },
+    {
+      "path": "fixes/cncf-install/install-minio.json",
+      "title": "Install and Configure MinIO on Kubernetes",
+      "description": "MinIO is a high-performance, S3-compatible object storage server suitable for AI workloads, analytics platforms, log aggregation backends (Loki, Thanos, Mimir), backup targets, and any application tha",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "storage"
+      ],
+      "cncfProjects": [
+        "minio"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "StatefulSet",
+        "Service",
+        "Secret",
+        "PersistentVolumeClaim",
+        "Namespace",
+        "CustomResourceDefinition"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v7.1.1",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
     },
     {
       "path": "fixes/cncf-install/install-slimtoolkit.json",
