@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-18T07:13:07.365Z",
-  "count": 1568,
+  "generatedAt": "2026-05-18T07:37:47.517Z",
+  "count": 1569,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -46668,6 +46668,46 @@
         "Node"
       ],
       "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/longhorn/longhorn-12921-bug-snapshot-max-count-doesn-t-work-on-v2-volumes.json",
+      "title": "longhorn: [BUG] `snapshot-max-count` doesn't work on v2 volumes",
+      "description": "[BUG] `snapshot-max-count` doesn't work on v2 volumes. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "longhorn",
+        "incubating",
+        "storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "longhorn"
+      ],
+      "targetResourceKinds": [
+        "Node"
+      ],
+      "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
       ],
