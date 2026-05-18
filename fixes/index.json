@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-18T07:37:47.517Z",
-  "count": 1569,
+  "generatedAt": "2026-05-18T07:38:30.885Z",
+  "count": 1570,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -58382,6 +58382,44 @@
       "qualitySuggestions": [
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
       ]
+    },
+    {
+      "path": "fixes/cncf-generated/sops/sops-933-problem-using-sops-with-passphrase-protected-age-key-file.json",
+      "title": "sops: Problem using sops with passphrase-protected age key file",
+      "description": "Problem using sops with passphrase-protected age key file. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "sops",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "sops"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
     },
     {
       "path": "fixes/cncf-generated/spin/spin-3364-i-d-really-like-to-opt-in-to-wasm-features.json",
