@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-19T07:05:01.857Z",
-  "count": 1575,
+  "generatedAt": "2026-05-19T07:57:37.694Z",
+  "count": 1576,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -58315,6 +58315,46 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/signoz/signoz-5996-dashboard-request-asp-net-metrics-dashboard.json",
+      "title": "signoz: [Dashboard Request] ASP .NET Metrics Dashboard",
+      "description": "[Dashboard Request] ASP .NET Metrics Dashboard. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "signoz",
+        "community",
+        "apm",
+        "feature"
+      ],
+      "cncfProjects": [
+        "signoz"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 100,
