@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-19T07:57:37.694Z",
+  "generatedAt": "2026-05-19T08:14:17.535Z",
   "count": 1576,
   "missions": [
     {
@@ -58332,7 +58332,7 @@
     {
       "path": "fixes/cncf-generated/signoz/signoz-5996-dashboard-request-asp-net-metrics-dashboard.json",
       "title": "signoz: [Dashboard Request] ASP .NET Metrics Dashboard",
-      "description": "[Dashboard Request] ASP .NET Metrics Dashboard. Community-requested feature.",
+      "description": "Create an ASP.NET Metrics Dashboard in SigNoz to monitor key application metrics like request rate, error rate, latency, and resource utilization for .NET applications instrumented with OpenTelemetry.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -58342,13 +58342,18 @@
         "signoz",
         "community",
         "apm",
-        "feature"
+        "feature",
+        "opentelemetry",
+        "dotnet",
+        "dashboard",
+        "metrics"
       ],
       "cncfProjects": [
         "signoz"
       ],
       "targetResourceKinds": [
-        "Deployment"
+        "Dashboard",
+        "ConfigMap"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -58357,17 +58362,21 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community",
-      "qualityScore": 100,
+      "qualityScore": 96,
       "qualityPass": true,
       "qualityBreakdown": {
         "clarity": 100,
         "completeness": 100,
         "correctness": 100,
         "structure": 100,
-        "observability": 100
+        "observability": 70
       },
-      "qualityIssues": [],
-      "qualitySuggestions": []
+      "qualityIssues": [
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
     },
     {
       "path": "fixes/cncf-generated/signoz/signoz-357-web-access-frontend-from-a-different-basepath-than-root.json",
