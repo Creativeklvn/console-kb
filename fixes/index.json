@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-20T18:43:29.761Z",
+  "generatedAt": "2026-05-20T20:18:38.291Z",
   "count": 1578,
   "missions": [
     {
@@ -21990,24 +21990,30 @@
     {
       "path": "fixes/platform-install/platform-argocd-operator.json",
       "title": "Install and Configure Argo CD Operator",
-      "description": "The Argo CD Operator is a Kubernetes operator designed to manage Argo CD clusters efficiently. It automates the deployment and management of Argo CD instances, making it easier to implement GitOps wor",
+      "description": "The Argo CD Operator (argoproj-labs/argocd-operator) manages Argo CD instances on Kubernetes by reconciling the ArgoCD custom resource. Upstream installs the operator via the Operator Lifecycle Manage",
       "category": "platform-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
       "tags": [
         "installation",
         "configuration",
         "operator",
         "gitops-operator",
-        "argo-project"
+        "argo-project",
+        "olm"
       ],
       "cncfProjects": [],
       "targetResourceKinds": [
         "Namespace",
         "Deployment",
-        "Service"
+        "Service",
+        "CatalogSource",
+        "OperatorGroup",
+        "Subscription",
+        "ClusterServiceVersion",
+        "ArgoCD"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -22016,8 +22022,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "cli",
-        "helm"
+        "olm",
+        "kubectl"
       ],
       "qualityScore": 100,
       "qualityPass": true,
