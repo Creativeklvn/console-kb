@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-20T07:04:51.355Z",
-  "count": 1577,
+  "generatedAt": "2026-05-20T07:47:15.530Z",
+  "count": 1578,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -50927,6 +50927,48 @@
       "qualitySuggestions": [
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
       ]
+    },
+    {
+      "path": "fixes/cncf-generated/open-cluster-management/open-cluster-management-1445-spoke-add-configmap-watching-and-tls-configuration.json",
+      "title": "open-cluster-management: [spoke] Add ConfigMap watching and TLS configuration",
+      "description": "[spoke] Add ConfigMap watching and TLS configuration. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-cluster-management",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-cluster-management"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Configmap",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
     },
     {
       "path": "fixes/cncf-generated/open-cluster-management/open-cluster-management-514-natively-support-ocm-on-eks.json",
