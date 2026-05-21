@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-21T15:13:35.426Z",
+  "generatedAt": "2026-05-21T16:10:54.958Z",
   "count": 1578,
   "missions": [
     {
@@ -24775,25 +24775,32 @@
     {
       "path": "fixes/cncf-install/install-falco.json",
       "title": "Install and Configure Falco on Kubernetes",
-      "description": "Falco is a cloud native runtime security tool designed to detect and alert on abnormal behavior and potential security threats in real-time. Installing Falco enables you to enhance the security postur",
+      "description": "Falco is a CNCF graduated runtime security tool that detects abnormal behavior on hosts and containers by reading kernel events through a BPF probe. This mission installs Falco via the official Helm c",
       "category": "cncf-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
       "tags": [
         "installation",
         "configuration",
         "cncf",
         "security",
-        "graduated"
+        "graduated",
+        "runtime-security",
+        "ebpf"
       ],
       "cncfProjects": [
         "falco"
       ],
       "targetResourceKinds": [
         "DaemonSet",
-        "Namespace"
+        "Namespace",
+        "ConfigMap",
+        "ServiceAccount",
+        "ClusterRole",
+        "ClusterRoleBinding",
+        "Service"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
