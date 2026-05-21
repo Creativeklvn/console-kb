@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-21T14:42:38.745Z",
+  "generatedAt": "2026-05-21T15:13:35.426Z",
   "count": 1578,
   "missions": [
     {
@@ -28432,24 +28432,29 @@
     {
       "path": "fixes/platform-install/platform-kyverno.json",
       "title": "Install and Configure Kyverno (Policy Engine)",
-      "description": "Kyverno is a Kubernetes-native policy engine that allows users to manage security, compliance, and governance through policy-as-code. It is particularly useful for teams looking to enforce policies co",
+      "description": "Kyverno is a Kubernetes-native policy engine that lets teams manage security, compliance, and governance through policy-as-code. This mission installs Kyverno via the official Helm chart into a dedica",
       "category": "platform-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
+      "author": "Vinay B M",
+      "authorGithub": "bmvinay7",
+      "authorAvatar": "https://github.com/bmvinay7.png",
       "tags": [
         "installation",
         "configuration",
         "operator",
         "security-operator",
+        "policy-engine",
         "kyverno"
       ],
       "cncfProjects": [],
       "targetResourceKinds": [
         "Namespace",
         "Deployment",
-        "Service"
+        "Service",
+        "ClusterPolicy",
+        "Policy",
+        "PolicyReport",
+        "ClusterPolicyReport"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
