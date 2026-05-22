@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-22T07:34:39.151Z",
-  "count": 1580,
+  "generatedAt": "2026-05-22T07:45:40.052Z",
+  "count": 1584,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -43962,6 +43962,48 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/langflow/langflow-12923-bug-report-frontend-black-screen-with-missing-chinese-locale-file.json",
+      "title": "langflow: 🐛 Bug Report: Frontend Black Screen with Missing Chinese Locale File Error",
+      "description": "🐛 Bug Report: Frontend Black Screen with Missing Chinese Locale File Error. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "langflow",
+        "community",
+        "ai-app",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "langflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 94,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 60
+      },
+      "qualityIssues": [
+        "No verification step or command found"
+      ],
+      "qualitySuggestions": [
+        "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)"
+      ]
+    },
+    {
       "path": "fixes/cncf-generated/langflow/langflow-2822-component-for-interacting-with-langsmith-prompt-hub.json",
       "title": "langflow: Component for interacting with LangSmith Prompt Hub",
       "description": "Component for interacting with LangSmith Prompt Hub. Requested by 6+ users.",
@@ -48780,6 +48822,44 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/n8n/n8n-14267-error-with-the-public-api-of-n8n-when-registering-a-webhook.json",
+      "title": "n8n: Error with the public API of n8n when registering a webhook",
+      "description": "Error with the public API of n8n when registering a webhook. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 100,
@@ -55141,6 +55221,48 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 96,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/cncf-generated/podman-container-tools/podman-container-tools-8193-alternate-port-handler-that-keeps-the-source-ip-for-.json",
+      "title": "podman-container-tools: Alternate port_handler that keeps the source ip for user-defined rootless networks",
+      "description": "Alternate port_handler that keeps the source ip for user-defined rootless networks. Requested by 29+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
       "issueTypes": [
         "feature"
       ],
@@ -64692,6 +64814,44 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/weaviate/weaviate-2567-new-feature-highlighting.json",
+      "title": "weaviate: [new feature] Highlighting ",
+      "description": "[new feature] Highlighting . Requested by 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "weaviate",
+        "community",
+        "vector-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "weaviate"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
       "issueTypes": [
         "feature"
       ],
