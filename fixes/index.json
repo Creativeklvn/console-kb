@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-22T07:34:19.880Z",
-  "count": 1579,
+  "generatedAt": "2026-05-22T07:34:39.151Z",
+  "count": 1580,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -15295,6 +15295,47 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/etcd/etcd-20793-learner-promotion-not-being-persisted-into-v3store-may-be-propagated-.json",
+      "title": "etcd: Learner promotion not being persisted into v3store may be propagated across multiple upgrades",
+      "description": "Learner promotion not being persisted into v3store may be propagated across multiple upgrades. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated",
       "qualityScore": 100,
