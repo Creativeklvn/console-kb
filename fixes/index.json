@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-23T07:14:13.319Z",
-  "count": 1585,
+  "generatedAt": "2026-05-23T07:28:45.086Z",
+  "count": 1586,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -63006,6 +63006,48 @@
       "path": "fixes/cncf-generated/vault/vault-1468-patch-api-needed-for-updating-multiple-secrets-stored-at-a-single-uri.json",
       "title": "vault: PATCH API needed for updating multiple secrets stored at a single URI path",
       "description": "PATCH API needed for updating multiple secrets stored at a single URI path. Requested by 34+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vault",
+        "community",
+        "secrets",
+        "feature"
+      ],
+      "cncfProjects": [
+        "vault"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 96,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/cncf-generated/vault/vault-3807-proxy-protocol-v2-logging-support.json",
+      "title": "vault: PROXY Protocol v2 logging support",
+      "description": "PROXY Protocol v2 logging support. Requested by 12+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
