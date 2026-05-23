@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-23T06:50:01.348Z",
-  "count": 1584,
+  "generatedAt": "2026-05-23T07:14:13.319Z",
+  "count": 1585,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -20838,6 +20838,44 @@
       "path": "fixes/cncf-generated/headlamp/headlamp-3916-mac-m1-application-does-not-launch.json",
       "title": "headlamp: Mac M1 application does not launch",
       "description": "Mac M1 application does not launch. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "headlamp",
+        "sandbox",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "headlamp"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/headlamp/headlamp-3655-mac-signing-is-not-working-need-to-setup-cncf-based-signing-certif.json",
+      "title": "headlamp: Mac signing is not working, need to setup CNCF based signing certificates",
+      "description": "Mac signing is not working, need to setup CNCF based signing certificates. This issue affects 12+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
