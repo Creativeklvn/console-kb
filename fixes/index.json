@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-24T07:00:48.764Z",
-  "count": 1589,
+  "generatedAt": "2026-05-24T07:38:30.769Z",
+  "count": 1590,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -45818,6 +45818,44 @@
       "path": "fixes/cncf-generated/litellm/litellm-20743-bug-claude-code-not-working-with-vercel-models-due-to-thinking-err.json",
       "title": "litellm: [Bug]: Claude Code not working with Vercel models due to \"thinking\" error",
       "description": "[Bug]: Claude Code not working with Vercel models due to \"thinking\" error. This issue affects 30+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/litellm/litellm-20412-bug-cost-tracking-is-not-working-with-vercel-models.json",
+      "title": "litellm: [Bug]: Cost tracking is not working with Vercel Models",
+      "description": "[Bug]: Cost tracking is not working with Vercel Models. This issue affects 32+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
