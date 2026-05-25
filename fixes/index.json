@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-25T00:21:11.985Z",
-  "count": 1590,
+  "generatedAt": "2026-05-25T05:57:38.988Z",
+  "count": 1592,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -57613,6 +57613,54 @@
       "qualitySuggestions": []
     },
     {
+      "path": "runbooks/restore-etcd-snapshot.json",
+      "title": "Restore a Kubernetes cluster from an etcd snapshot",
+      "description": "Production-grade restore runbook for kubeadm-managed Kubernetes control planes that recover etcd state from a previously taken snapshot. The workflow verifies snapshot integrity with etcdutl, stops th",
+      "category": "restore-etcd-snapshot.json",
+      "missionClass": "runbook",
+      "author": "KubeStellar Console",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "restore",
+        "etcd",
+        "snapshot",
+        "kubeadm",
+        "control-plane",
+        "runbook"
+      ],
+      "cncfProjects": [
+        "etcd",
+        "kubernetes"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node",
+        "ConfigMap",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "NodeNotReady",
+        "ServiceUnavailable"
+      ],
+      "type": "restore",
+      "installMethods": [
+        "kubeadm"
+      ],
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/troubleshoot/credentials-setup.json",
       "title": "Restore kubeconfig credentials when the console reports MISSING_CREDENTIALS",
       "description": "Repair mission for kubeconfig credentials setup. Use it when the console preflight reports MISSING_CREDENTIALS, when kubectl cannot find a kubeconfig, or when the local kubeconfig exists but lacks usa",
@@ -57642,6 +57690,55 @@
         "kubectl"
       ],
       "qualityScore": 96,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "runbooks/restore-velero-backup.json",
+      "title": "Restore Kubernetes resources from a Velero backup",
+      "description": "Production-grade restore runbook for recovering Kubernetes namespaces, persistent volumes, and workload resources from an existing Velero backup. The flow identifies a valid completed backup, creates ",
+      "category": "restore-velero-backup.json",
+      "missionClass": "runbook",
+      "author": "KubeStellar Console",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "restore",
+        "velero",
+        "backup",
+        "disaster-recovery",
+        "namespace",
+        "runbook"
+      ],
+      "cncfProjects": [
+        "velero",
+        "kubernetes"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "PersistentVolumeClaim",
+        "Deployment",
+        "StatefulSet",
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "PersistentVolumeError"
+      ],
+      "type": "restore",
+      "installMethods": [
+        "helm",
+        "manifest"
+      ],
+      "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
         "clarity": 100,
