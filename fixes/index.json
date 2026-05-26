@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-26T07:05:12.744Z",
-  "count": 1592,
+  "generatedAt": "2026-05-26T07:43:26.496Z",
+  "count": 1593,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -58551,6 +58551,50 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/score/score-195-bug-resources-limits-memory-regex-rejects-valid-values-like-1-5gi-and-.json",
+      "title": "score: [BUG] resources.limits.memory regex rejects valid values like 1.5Gi and larger unit suffixes",
+      "description": "[BUG] resources.limits.memory regex rejects valid values like 1.5Gi and larger unit suffixes. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "score",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "score"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 30
+      },
+      "qualityIssues": [
+        "No verification step or command found",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
     },
     {
       "path": "fixes/cncf-generated/seaweedfs/seaweedfs-2445-mount-fuse-mount-seems-not-writeable-through-macos-finder.json",
