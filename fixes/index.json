@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-27T07:19:29.926Z",
-  "count": 1593,
+  "generatedAt": "2026-05-27T07:43:57.123Z",
+  "count": 1594,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -59731,6 +59731,48 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/strimzi/strimzi-11123-enhancement-support-for-k8s-gateway-tlsroute-on-kafka-listeners.json",
+      "title": "strimzi: [Enhancement]: support for k8s Gateway TLSRoute on Kafka listeners",
+      "description": "[Enhancement]: support for k8s Gateway TLSRoute on Kafka listeners. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "strimzi",
+        "incubating",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "strimzi"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Ingress",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "incubating",
       "qualityScore": 100,
