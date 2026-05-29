@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-29T07:11:52.001Z",
-  "count": 1594,
+  "generatedAt": "2026-05-29T07:29:12.988Z",
+  "count": 1595,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -37373,6 +37373,48 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/keda/keda-7486-fromenv-trigger-metadata-silently-fails-when-scaledobject-targets-argo.json",
+      "title": "keda: *FromEnv trigger metadata silently fails when ScaledObject targets Argo Rollout with workloadRef",
+      "description": "*FromEnv trigger metadata silently fails when ScaledObject targets Argo Rollout with workloadRef. This issue affects 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Configmap"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated",
       "qualityScore": 100,
       "qualityPass": true,
       "qualityBreakdown": {
