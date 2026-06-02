@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-02T07:29:46.553Z",
-  "count": 1598,
+  "generatedAt": "2026-06-02T07:56:41.067Z",
+  "count": 1599,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -53415,6 +53415,44 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/opentelemetry-operator/opentelemetry-operator-4362-apis-package-should-not-import-github-com-goccy-go-y.json",
+      "title": "opentelemetry-operator: APIs package should not import `github.com/goccy/go-yaml`",
+      "description": "APIs package should not import `github.com/goccy/go-yaml`. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-operator",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry-operator"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
