@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-02T00:27:49.851Z",
-  "count": 1597,
+  "generatedAt": "2026-06-02T00:34:47.840Z",
+  "count": 1598,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -51082,6 +51082,50 @@
         "Missing expected output or log checks"
       ],
       "qualitySuggestions": [
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/cncf-generated/ollama/ollama-8484-issue-with-ollama-model-download-progress-reverting-during-download.json",
+      "title": "ollama: Issue with Ollama Model Download: Progress Reverting During Download",
+      "description": "Issue with Ollama Model Download: Progress Reverting During Download. This issue affects 32+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "ollama",
+        "community",
+        "llm-serving",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "ollama"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 30
+      },
+      "qualityIssues": [
+        "No verification step or command found",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)",
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
       ]
     },
