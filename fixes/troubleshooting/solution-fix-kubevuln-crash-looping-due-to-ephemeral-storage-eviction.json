@@ -1,6 +1,5 @@
 {
   "version": "kc-mission-v1",
-  "title": "Fix kubevuln crash-looping due to ephemeral storage eviction",
   "description": "**Problem:** kubevuln pods crash or get evicted, leaving behind failed pods that accumulate and cause DiskPressure on the node. This manifests in two ways: (1) ephemeral storage eviction when the 10Gi default limit is exceeded by Grype DB downloads and scan caches, and (2) failed pod accumulation where 50-100+ dead pods pile up because kubelet doesn't garbage-collect deployment pod corpses fast enough.\n\n**Solution:** Increase ephemeral storage limits via Helm, clean up failed pods, and monitor for recurrence.",
   "type": "troubleshoot",
   "missionClass": "fixer",
@@ -61,12 +60,14 @@
         "Verify: kubectl get pods -n kubescape -l app.kubernetes.io/component=kubevuln"
       ],
       "yaml": "# Helm values override for kubevuln ephemeral storage\nkubevuln:\n  resources:\n    requests:\n      ephemeral-storage: 10Gi\n    limits:\n      ephemeral-storage: 50Gi"
-    }
+    },
+    "title": "Fix kubevuln crash-looping due to ephemeral storage eviction"
   },
   "metadata": {
     "author": "You",
     "source": "kubestellar-console",
     "createdAt": "2026-03-10T15:20:38.029Z",
     "updatedAt": "2026-03-16T18:30:00.000Z"
-  }
+  },
+  "name": "fix-kubevuln-crash-looping-ephemeral-storage-eviction"
 }
