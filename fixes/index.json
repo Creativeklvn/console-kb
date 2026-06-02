@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-02T07:56:41.067Z",
-  "count": 1599,
+  "generatedAt": "2026-06-02T08:19:12.202Z",
+  "count": 1600,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -65863,6 +65863,44 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/woodpecker-ci/woodpecker-ci-2502-slow-authorization-if-user-has-many-orgs-repos.json",
+      "title": "woodpecker-ci: Slow authorization if user has many orgs/repos",
+      "description": "Slow authorization if user has many orgs/repos. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "woodpecker-ci",
+        "community",
+        "ci-cd",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "woodpecker-ci"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 100,
