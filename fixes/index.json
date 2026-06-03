@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T07:32:51.804Z",
-  "count": 1600,
+  "generatedAt": "2026-06-03T08:03:37.927Z",
+  "count": 1601,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -43657,6 +43657,48 @@
         "Customresourcedefinition"
       ],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kyverno/kyverno-15949-bug-cli-fails-offline-for-cel-validatingpolicy-when-resources-incl.json",
+      "title": "kyverno: [Bug] [CLI] Fails offline for CEL/ValidatingPolicy when resources include CRDs",
+      "description": "[Bug] [CLI] Fails offline for CEL/ValidatingPolicy when resources include CRDs. This issue affects 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kyverno",
+        "incubating",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kyverno"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Statefulset"
+      ],
+      "difficulty": "beginner",
       "issueTypes": [
         "troubleshoot"
       ],
