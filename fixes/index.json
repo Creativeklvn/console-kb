@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T07:39:35.093Z",
-  "count": 1603,
+  "generatedAt": "2026-06-05T07:54:08.227Z",
+  "count": 1605,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -39315,6 +39315,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/cncf-generated/keylime/keylime-141-set-all-string-declarations-using-f-strings.json",
+      "title": "keylime: Set all string declarations using f-strings",
+      "description": "Set all string declarations using f-strings. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keylime",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keylime"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
       "path": "fixes/cncf-generated/kgateway/kgateway-4750-glooctl-check-unable-to-cancel-request-for-exec-roundtripper.json",
       "title": "kgateway: `glooctl check` Unable to cancel request for *exec.roundTripper",
       "description": "`glooctl check` Unable to cancel request for *exec.roundTripper. This issue affects 7+ users.",
@@ -39340,6 +39378,46 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kgateway/kgateway-5962-client-load-balancing-in-extauth-server.json",
+      "title": "kgateway: Client Load Balancing in ExtAuth server",
+      "description": "Client Load Balancing in ExtAuth server. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kgateway",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kgateway"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "sandbox",
       "qualityScore": 100,
