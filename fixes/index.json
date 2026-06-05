@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T07:24:28.535Z",
-  "count": 1602,
+  "generatedAt": "2026-06-05T07:39:35.093Z",
+  "count": 1603,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -18604,6 +18604,47 @@
         "deploy"
       ],
       "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/flux/flux-2625-helmrelease-valuesfrom-kind-secret-with-comma-separated-values-cannot-.json",
+      "title": "flux: HelmRelease valuesFrom kind secret with comma separated values (cannot end with ,)",
+      "description": "HelmRelease valuesFrom kind secret with comma separated values (cannot end with ,). This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated",
       "qualityScore": 100,
