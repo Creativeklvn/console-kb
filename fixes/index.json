@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T07:54:08.227Z",
-  "count": 1605,
+  "generatedAt": "2026-06-05T08:02:19.964Z",
+  "count": 1606,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -46780,6 +46780,44 @@
       "path": "fixes/cncf-generated/litellm/litellm-7877-feature-deepseek-r1-support.json",
       "title": "litellm: [Feature]: DeepSeek-R1 support",
       "description": "[Feature]: DeepSeek-R1 support. Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "feature"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/litellm/litellm-29463-feature-support-openai-frontier-models-gpt-5-5-gpt-5-4-on-bedrock-.json",
+      "title": "litellm: [Feature]: Support OpenAI frontier models (gpt-5.5 / gpt-5.4) on bedrock-mantle via the /openai/v1/responses path",
+      "description": "[Feature]: Support OpenAI frontier models (gpt-5.5 / gpt-5.4) on bedrock-mantle via the /openai/v1/responses path. Requested by 29+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
