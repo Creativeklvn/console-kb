@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-06T06:58:28.450Z",
-  "count": 1606,
+  "generatedAt": "2026-06-06T07:30:31.727Z",
+  "count": 1607,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -39262,6 +39262,44 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/keylime/keylime-519-keylime-webapp-don-t-work-after-package-install.json",
+      "title": "keylime: keylime_webapp don't work after package install",
+      "description": "keylime_webapp don't work after package install. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keylime",
+        "sandbox",
+        "app-definition",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "keylime"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
       "installMethods": [],
       "maturity": "sandbox",
       "qualityScore": 100,
