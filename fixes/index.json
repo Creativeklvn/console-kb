@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-06T12:21:29.498Z",
-  "count": 1607,
+  "generatedAt": "2026-06-07T07:56:02.418Z",
+  "count": 1609,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -38240,6 +38240,82 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kepler/kepler-373-cannot-start-up-exporter-with-kind.json",
+      "title": "kepler: Cannot start up exporter with Kind",
+      "description": "Cannot start up exporter with Kind. Users encounter: \"runtime error: index out of range [16] with length 16\".",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/kepler/kepler-179-getkernelversion-doesn-t-work-at-all.json",
+      "title": "kepler: getKernelVersion doesn't work at all",
+      "description": "getKernelVersion doesn't work at all. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox",
       "qualityScore": 100,
