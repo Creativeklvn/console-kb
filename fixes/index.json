@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-07T07:56:02.418Z",
-  "count": 1609,
+  "generatedAt": "2026-06-08T08:15:41.951Z",
+  "count": 1610,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -35627,6 +35627,46 @@
         "deploy"
       ],
       "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/istio/istio-29264-support-direct-response-in-virtualservice.json",
+      "title": "istio: Support direct response in VirtualService",
+      "description": "Support direct response in VirtualService. Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated",
       "qualityScore": 100,
