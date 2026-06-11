@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-11T07:32:52.614Z",
-  "count": 1605,
+  "generatedAt": "2026-06-11T08:01:03.310Z",
+  "count": 1606,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -7477,6 +7477,48 @@
         "Ingress"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/cilium/cilium-21929-cfp-support-tcproute-and-udproute-in-cilium-gateway-api.json",
+      "title": "cilium: CFP: Support TCPRoute and UDPRoute in Cilium Gateway API",
+      "description": "CFP: Support TCPRoute and UDPRoute in Cilium Gateway API. Requested by 114+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Node"
+      ],
+      "difficulty": "expert",
       "issueTypes": [
         "feature"
       ],
